@@ -5,7 +5,7 @@ I discuss what each script accomplishes and their needed commands below. These s
 at the moment.
 
 ### install-python.sh
-Example Usage: `./install-python.sh -v "3.9.1"`
+Example Usage: `./install-python.sh -v "3.9.1"`<br />
 by running the above command the script will handle downloading and installing the Python version specified.
 This script may take somne time to complete as it will build Python from source. 
 
@@ -14,11 +14,11 @@ Simple script to list Python Installs by searching common install locations as w
 versiosn are associated with the python and python3 command.
 
 ### project-setup.sh
-Sets up a basic Python project and creates all the requirements for .vscode
+Example Usage `./project-setup.sh -p python3 -d ~/my-new-project` <br />
+Sets up a basic Python project for Visual Studio Code. Automatically creates virtual environment and .vscode settings
 
 ### service-setup.sh
-Running the `service-setup.sh` will create a custom service that is setup to run a Python
-program through a python virtual environment.
+Running the `service-setup.sh` will create a custom service that is setup to run a Python program through a python virtual environment.
 
 
 ### To Download and Run:
